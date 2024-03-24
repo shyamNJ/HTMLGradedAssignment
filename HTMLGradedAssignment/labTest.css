@@ -1,0 +1,56 @@
+
+body{
+    overflow: hidden;
+    font-size: 20px;
+}
+.btn{
+    text-align: left;
+    padding-left: 300px;
+    
+}
+.btn button{
+
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.container{
+    margin: 5% 10% ;
+    
+}
+
+.content{ 
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 1px 1px 30px black;
+    overflow-y: scroll;
+    height: 550px;
+    font-weight: 100;
+    scrollbar-width: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content form{
+    padding: 40px;
+   
+}
+.content form input{
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+    
+    .content img{
+        width: 600px;
+        height: 550px;
+        margin: 5px;
+        position: fixed;
+        right: 180px;   
+    }
